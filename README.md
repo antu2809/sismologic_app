@@ -1,6 +1,6 @@
 # Sismologic_app
 
-Aplicación en Ruby o framework basado en Ruby que obtiene y entrega información relacionada con datos sismológicos en el mundo. El mismo contempla una Task para obtener y persistir datos y una API que expone dos endpoints que serán consultados desde un cliente externo 
+Aplicación que obtiene y entrega información relacionada con datos sismológicos en el mundo. El mismo contempla una Task para obtener y persistir datos y una API que expone dos endpoints que serán consultados desde un cliente externo 
 
 ## Versión de Ruby
 
