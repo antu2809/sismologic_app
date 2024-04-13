@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Características</title>
+  <link rel="icon" href="<%= asset_pack_path 'media/packs/images/RiEarthquakeFill.png' %>" type="image/png">
+  <script src="/assets/welcome.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <h1>
+    <img src="<%= asset_pack_path 'media/packs/images/RiEarthquakeFill.png' %>" alt="Logo" style="width: 50px; margin-right: 10px;" />
+    SISMOLOGIC APP
+  </h1>
+
+  <!-- Contenedor para el componente FeatureList -->
+  <div id="feature-list-container"></div>
+
+  <!-- Importar los scripts necesarios -->
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  <footer>
+    Los datos visualizados son proporcionados por <a href="https://earthquake.usgs.gov">earthquake.usgs.gov</a>
+  </footer>
+</body>
+</html>
