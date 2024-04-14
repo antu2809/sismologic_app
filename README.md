@@ -48,11 +48,4 @@ Para iniciar el servidor Rails:
 rails s
 ```
 
-Para iniciar el servidor de desarrollo de React:
-
-```bash
-cd client
-yarn start
-```
-
 Ahora puedes visitar http://localhost:3000 para ver la aplicación.
